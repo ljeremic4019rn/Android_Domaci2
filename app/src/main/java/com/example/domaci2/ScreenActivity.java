@@ -55,7 +55,7 @@ public class ScreenActivity extends AppCompatActivity {
     public void initListeners(){
         favButton.setOnClickListener(v -> {
             if (!favourite){
-//                star.setImageResource(R.drawable.logo);
+//                star.setImageResource(R.drawable.logo);//todo
 
                 favButton.setText(R.string.unfavourite);
                 favourite = true;
@@ -63,7 +63,7 @@ public class ScreenActivity extends AppCompatActivity {
 
             }
             else {
-//                star.setImageResource(R.drawable.outline_star_outline_24);
+//                star.setImageResource(R.drawable.outline_star_outline_24);//todo
                 favButton.setText(R.string.favourite);
                 favourite = false;
             }
